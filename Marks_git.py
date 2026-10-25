@@ -16,6 +16,6 @@ def calculate_marks():
     print("Social Science:", mark5)
     print("Total Marks (TOT):", total)
     print("Average Marks (AVG):", average)
-    
+
     if __name__ == "__main__":
-    calculate_marks()
+        calculate_marks()

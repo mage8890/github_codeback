@@ -1,0 +1,58 @@
+How to install python and github
+
+download new Version of paython and install ->create Folder and files in paython code save as test_AI.py
+download git and install
+open cmd C:\Users\Admin>git config --global user.name "AI_course"
+
+C:\Users\Admin>git config --global user.email "AI_course.user.masai@gmail.com"
+
+open PS D:\AI_Course> python Test_git.py //run paython code
+Hello AI machine //output
+PS D:\AI_Course> git init //git track the code changes in program
+PS D:\AI_Course> git add Test.git.py(FileName) // git notice the code changes in program
+PS D:\AI_Course> git commit -m "initial commit" //picture click
+github mean cloude based service, where to push the code
+github gmail link-  gmail user: magetest1990@gmail.com, password: magetest@123
+gitub user : mage8890
+create repository -> copy link-> https://github.com/mage8890/github_codeback.git
+https://github.com/mage8890/Colab_githubbackup.git
+
+run in VS code terminal
+PS D:\AI_Course> git branch M main //
+PS D:\AI_Course> git remote add origin https://github.com/mage8890/github_codeback.git
+PS D:\AI_Course> git push -u origin main //push code in repository gitub
+
+//next python code push method to github
+PS D:\AI_Course> git add Marks_git.py
+PS D:\AI_Course> git commit -m "This is my 2nd commit" //git 
+[main 1862364] This is my 2nd commit
+ 1 file changed, 21 insertions(+)
+ create mode 100644 Marks_git.py
+PS D:\AI_Course> 
+PS D:\AI_Course> git push //get push the code
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 551 bytes | 551.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mage8890/github_codeback.git
+   71ae0d9..1862364  main -> main
+   
+push code to colab to github
+save in github ->connect to hithub-> in dialogue box-> select repository name, Main, path and write push code in final text box
+those file created in github
+
+in VS code, which we push collab to github files. move to VS local cmd called
+> git pull //can see file in local VS
+
+python code->create file. test.ipynb //cloab jubyter notebook
+import streamlit as st //paython packages , write in colab cell in vs test.ipynb and run
+>%pip install streamlit ->paython packages, write in colab cell in vs test.ipynb and run
+
+PS D:\AI_Course> python -m venv venv(File name) //create virtual environment / where codes are differnt version
+(venv) PS D:\AI_Course> .\venv\Scripts\activate
+(venv) PS D:\AI_Course> %pip install streamlit
+
+
+
